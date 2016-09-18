@@ -23,7 +23,7 @@ public class StateManager {
 		states.pop();
 	}
 
-	// Calls update method from the state current at the top of stack
+	// Calls update method from the state currently at the top of stack
 	public void update(float dt) {
 		states.peek().update(dt);
 	}
